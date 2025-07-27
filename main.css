@@ -440,24 +440,6 @@
                     transition: filter 1s cubic-bezier(0.4, 0, 0.2, 1);
                     animation: rotate 6s linear infinite;
                 }
-
-                ::before {
-                    content: "";
-                    position: absolute;
-                    height: 200%;
-                    width: 200%;
-                    background-image: conic-gradient(transparent, transparent, transparent, var(--secondary-purple));
-                    z-index: -10;
-                    border-radius: 3.1rem;
-                    padding: .2rem;
-                    top: 50%;
-                    left: 50%;
-                    translate: -50% -50%;
-                    filter: blur(2px), opacity(50%);
-                    transition: filter 1s cubic-bezier(0.4, 0, 0.2, 1);
-                    animation: rotate 6s linear infinite;
-                    animation-delay: -3s;
-                }
             }
         }
     }
