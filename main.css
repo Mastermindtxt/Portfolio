@@ -304,7 +304,7 @@
                 }
 
 
-                ::after {
+               /* ::after {
                     content: "";
                     position: absolute;
                     background-color: #e7dbef;
@@ -318,7 +318,7 @@
                     z-index: -10;
                     filter: blur(1px);
                     cursor: pointer;
-                }
+                } */
 
             }
         }
